@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+
+body{
+    font-size:100%;
+    background:linear-gradient(6768.15deg crimson  crimson 20%, transparent);
+}
+
+.cabeçalhoblog{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    padding:24px;
+}
+
+.imagem-e-cabeçalho{
+    height: 72px;
+}
+
+.cabeçalho-menu{
+    display:flex;
+    gap:32px;
+}
+
+.cabeçalho-menu-settings{
+    font-family: 'Sarala', sans-serif;
+    color:crimson;
+    font-weight:400;
+    font-size: 18px;
+}
+
+.conteudo-principal{
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+}
+
+.conteudo-central{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.conteudo-escrito{
+    display:flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo-escrito{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: crimson;
+}
+
+.subtitulo-escrito{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+     font-size:24px;
+     color:#3f3e3d;
+}
+
+
+input[type=text]{
+    height: 100px;
+    width:250px;
+}
+
+input[type=email]{
+    height:40px;
+    width: 250px;
+}
+
+.botão-escrito:hover{
+    background-color:rgba(236,214,196,0.53);
+}
+
+.imagem-conteudo{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 24px;
+    margin-top:48px;
+}
+
+ .conteudo-secundario-titulo{
+    border-top: 0.4px solid #f84802;
+    padding-top:48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color:#000000;
+    margin-bottom:16px;
+}
+
+.rodape-final{
+    padding:32px;
+    border-top: 0.4px solid #3f3e3d;
+    align-items:flex-end;
+}
+
+.imagem-rodape{
+    height:48px;
+    display:block;
+    margin:0 auto;
+    align-items:center;
+}
+
+.formulario{
+   display:flex;
+   flex-direction: column;
+   align-items:center;
+}
+
+.botão-escrito{
+    background-color:#ECD6C4;
+    width:180px;
+    height:60px;
+    border:none;
+    box-shadow: 4px 5px 4px rgba(99, 4, 4, 0.788);
+    border-radius:20px;
+    font-family: 'Sarala', sans-serif;
+    height: 400;
+    font-size:24px;
+    color:#2F2325;
